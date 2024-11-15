@@ -1,7 +1,6 @@
 const config = {
     type: 'app',
-    name: 'capture-growth-chart',
-
+    name: 'dhis2-capture-growth-chart',
     entryPoints: { plugin: './src/Plugin.tsx' },
 };
 

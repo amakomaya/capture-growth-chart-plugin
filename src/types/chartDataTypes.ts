@@ -143,8 +143,11 @@ export const CategoryToYUnit = Object.freeze({
 export const DataSetLabels = Object.freeze({
     y_0_5: i18n.t('0 to 5 years'),
     w_0_13: i18n.t('0 to 13 weeks'),
-    y_0_2: i18n.t('0 to 2 years'),
+    // y_0_2: i18n.t('0 to 2 years'),
     y_2_5: i18n.t('2 to 5 years'),
+    y_0_2: i18n.t('0 to 2 years'),
+
+
 });
 
 export const ChartLabelCodes = Object.freeze({
@@ -170,6 +173,8 @@ export const ChartCodes = Object.freeze({
     lhfa_g_0_13_w_z: ChartLabelCodes.b_0_13_w,
     lhfa_g_2_5_y_z: ChartLabelCodes.g_2_5_y,
     wfa_b_0_5_y_z: ChartLabelCodes.b_0_5_y,
+    wfa_b_0_2_y_z: ChartLabelCodes.b_0_2_y,
+    wfa_g_0_2_y_z:ChartLabelCodes.g_0_2_y,
     wfa_b_0_13_w_z: ChartLabelCodes.b_0_13_w,
     wfa_g_0_5_y_z: ChartLabelCodes.g_0_5_y,
     wfa_g_0_13_w_z: ChartLabelCodes.g_0_13_w,

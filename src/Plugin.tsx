@@ -39,6 +39,9 @@ const PluginInner = (propsFromParent: EnrollmentOverviewProps) => {
         programId,
         orgUnitId,
     } = propsFromParent;
+    // const teiId = "m6I62NbfAl6"
+    // const programId = "oFBAJ95lNVb"
+    // const orgUnitId = "E4ZJOesqjE3"
 
     const {
         trackedEntity,
